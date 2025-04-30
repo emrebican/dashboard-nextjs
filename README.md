@@ -92,50 +92,6 @@ Tailwind config, custom theming, utility classes for layout, spacing, typography
 **Key Concepts**:  
 Environment variables, Vercel CLI, GitHub integration, deployment previews
 
-## Project Structure Overview
-
-```bash
-├── app/
-│   ├── dashboard/
-│   │   ├── (overview)/
-│   │   │   ├── loading.tsx
-│   │   │   └── page.tsx
-│   │ 	├── customers
-│ 	│	  ├── invoices
-│   │   └── layout.tsx
-│   ├── lib/
-│   │   └── placeholder-data.ts
-│   ├── seed/
-│   │   └── route.ts
-│	  ├── layout.tsx
-│	  ├── page.tsx
-│   └── ui/
-│       ├── dashboard/
-│       │    	├── revenue-chart.tsx
-│				│     ├── cards.tsx
-│				│     ├── latest-invoices.tsx
-│				│     ├── nav-links.tsx
-│     	│			├── revenue-chart.tsx
-│       │    	└── sidenav.tsx
-│       ├── invoices/
-│       │	    ├── breadcrumbs.tsx
-│       │   	├── pagination.tsx
-│			  │   	├── button.tsx
-│				│     ├── create-form.tsx
-│				│     ├── edit-form.tsx
-│				│     ├── status.tsx
-│       │	   	└── table.tsx
-│       ├── customers/
-│       │	    └── table.tsx
-│       ├── login-form.tsx
-│   		├── fonts.ts
-│		    ├── search.tsx
-│       └── skeletons.tsx
-├── postcss.config.js
-├── next.config.ts
-└── README.md
-```
-
 ## Setup Instructions
 
 ### 1. Clone the Project
