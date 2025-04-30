@@ -10,6 +10,7 @@ import {
 import { lusitana } from "../../ui/fonts";
 
 export default async function DashboardPage() {
+  /* These fetches are commented out and they handled in the separate components */
   // const revenue = await fetchRevenue();
   // const latestInvoices = await fetchLatestInvoices();
   // const {
