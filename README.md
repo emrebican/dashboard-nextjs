@@ -112,9 +112,9 @@ Environment variables, Vercel CLI, GitHub integration, deployment previews
 │   └── ui/
 │       ├── dashboard/
 │       │    	├── revenue-chart.tsx
-│				│      ├── cards.tsx
-│				│      ├── latest-invoices.tsx
-│				│      ├── nav-links.tsx
+│				│     ├── cards.tsx
+│				│     ├── latest-invoices.tsx
+│				│     ├── nav-links.tsx
 │     	│			├── revenue-chart.tsx
 │       │    	└── sidenav.tsx
 │       ├── invoices/
