@@ -1,8 +1,12 @@
-import { Card } from "../ui/dashboard/cards";
-import RevenueChart from "../ui/dashboard/revenue-chart";
-import LatestInvoices from "../ui/dashboard/latest-invoices";
-import { fetchRevenue, fetchLatestInvoices, fetchCardData } from "../lib/data";
-import { lusitana } from "../ui/fonts";
+import { Card } from "../../ui/dashboard/cards";
+import RevenueChart from "../../ui/dashboard/revenue-chart";
+import LatestInvoices from "../../ui/dashboard/latest-invoices";
+import {
+  fetchRevenue,
+  fetchLatestInvoices,
+  fetchCardData,
+} from "../../lib/data";
+import { lusitana } from "../../ui/fonts";
 
 export default async function DashboardPage() {
   const revenue = await fetchRevenue();
