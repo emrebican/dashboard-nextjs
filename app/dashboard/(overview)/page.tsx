@@ -8,6 +8,11 @@ import {
   RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
 import { lusitana } from "../../ui/fonts";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home",
+};
 
 export default async function DashboardPage() {
   /* These fetches are commented out and they handled in the separate components */

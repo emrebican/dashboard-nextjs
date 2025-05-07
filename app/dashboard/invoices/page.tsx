@@ -7,6 +7,11 @@ import { CreateInvoice } from "@/app/ui/invoices/buttons";
 import { InvoicesTableSkeleton } from "@/app/ui/skeletons";
 import { lusitana } from "@/app/ui/fonts";
 import { fetchInvoicesPages } from "@/app/lib/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Invoices",
+};
 interface Props {
   searchParams?: Promise<{
     query?: string;

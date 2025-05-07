@@ -1,6 +1,11 @@
 import { Suspense } from "react";
+import { Metadata } from "next";
 import AcmeLogo from "../ui/acme-logo";
 import LoginForm from "../ui/login-form";
+
+export const metadata: Metadata = {
+  title: "Login",
+};
 
 export default function LoginPage() {
   return (
