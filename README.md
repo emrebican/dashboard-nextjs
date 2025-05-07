@@ -2,6 +2,10 @@
 
 This is a hands-on project built by following the official [Next.js Dashboard App Tutorial](https://nextjs.org/learn/dashboard-app). It demonstrates how to create a modern, full-stack web application using the latest Next.js features.
 
+To sign in
+email: 'user@nextmail.com',
+password: '123456',
+
 ---
 
 ## What You'll Learn
